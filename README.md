@@ -140,6 +140,8 @@ cd DomainScout
 
 # 2. Otomatik kurulumu çalıştırın
 INSTALL.bat
+# veya
+python domainscout_pro.py
 ```
 
 #### Linux/macOS:
@@ -149,7 +151,7 @@ git clone https://github.com/Muhammedcengizz598/DomainScout.git
 cd DomainScout
 
 # 2. Otomatik kurulumu çalıştırın
-python3 auto_setup.py
+python auto_setup.py
 ```
 
 ### Manuel Kurulum
@@ -179,11 +181,13 @@ pip install -r requirements.txt
 #### Windows:
 ```bash
 START_DOMAINSCOUT.bat
+# veya
+python domainscout_pro.py
 ```
 
 #### Linux/macOS:
 ```bash
-python3 domainscout_pro.py
+python domainscout_pro.py
 ```
 
 ### Temel Kullanım
