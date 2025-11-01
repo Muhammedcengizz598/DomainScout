@@ -1,0 +1,37 @@
+{
+    "application": {
+        "name": "DomainScout Pro",
+        "version": "1.0.0",
+        "theme": "dark",
+        "language": "en"
+    },
+    "analysis": {
+        "timeout": 10,
+        "max_retries": 3,
+        "enable_port_scan": true,
+        "enable_subdomain_scan": true,
+        "enable_technology_detection": true,
+        "enable_performance_check": true
+    },
+    "export": {
+        "auto_save": false,
+        "default_format": "json",
+        "include_timestamp": true,
+        "create_visualizations": true
+    },
+    "network": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "verify_ssl": true,
+        "follow_redirects": true,
+        "max_redirects": 5
+    },
+    "directories": {
+        "data": "data",
+        "json_exports": "data/json_exports",
+        "csv_exports": "data/csv_exports",
+        "html_reports": "data/html_reports",
+        "visualizations": "data/visualizations",
+        "logs": "logs",
+        "cache": "cache"
+    }
+}
